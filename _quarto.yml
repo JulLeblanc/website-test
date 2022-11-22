@@ -1,0 +1,20 @@
+project:
+  title: "regex"
+  type: website
+
+website:
+  title: "regex"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
